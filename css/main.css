@@ -1,0 +1,110 @@
+/*
+ * Globals
+ */
+body {
+    padding-top: 50px;
+    background: black;
+    color: #BBB;
+}
+
+em {
+    font-style: normal;
+    font-weight: bold;
+}
+
+
+/*
+ * Main column
+ */
+
+.blog-main {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+/*
+ * Blog posts
+ */
+
+.blog-post {
+    margin-bottom: 60px;
+}
+.blog-post-title {
+    margin-bottom: 5px;
+    font-size: 32px;
+}
+.blog-post-meta {
+    margin: 0 0 18px;
+    padding: 7px 14px;
+    color: #999;
+    border: 1px solid rgb(221,221,221);
+}
+
+/*
+ * List
+ */
+.posts {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.posts li {
+    margin-bottom: 10px;
+}
+
+.posts li:before {
+    background-color: rgb(51, 51, 102);
+    border-radius: 3px;
+    color: white;
+    content: attr(data-date);
+    font-weight: bold;
+    margin-right: 5px;
+    padding: 3px 8px;
+}
+
+/*
+ * Footer
+ */
+
+.blog-footer {
+    padding: 40px 0;
+    color: #999;
+    text-align: center;
+    border-top: 1px solid rgb(51, 51, 102);
+}
+.blog-footer p:last-child {
+    margin-bottom: 0;
+}
+
+/**
+ * Nav
+ */
+.navbar-inverse {
+    background: #333366;
+}
+.navbar-inverse .navbar-brand {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #FFF;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/* Twitter share button override */
+.twitter-share-button[style] { 
+    vertical-align: sub !important; 
+}
+
+.social {
+    font-size: 24px;
+}
+
+.social:hover {
+    color: rgb(255, 255, 255);
+}
